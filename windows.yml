@@ -7,12 +7,12 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "10l"
+      VERSION: "xp"
       USERNAME: "User"
       PASSWORD: "user@123"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
-      DISK_SIZE: "20G"
+      DISK_SIZE: "32G"
       DISK2_SIZE: "2G"
     devices:
       - /dev/kvm
